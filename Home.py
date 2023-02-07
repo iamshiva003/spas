@@ -8,7 +8,7 @@ from streamlit_lottie import st_lottie
 # setting page configurations
 st.set_page_config(page_title='My Project', page_icon=':tada:', layout='wide')
 st.sidebar.write("## STUDENT PERFORMANCE ANALYSIS SYSTEM")
-st.balloons()
+# st.balloons()
 
 
 def load_lottieurl(url):

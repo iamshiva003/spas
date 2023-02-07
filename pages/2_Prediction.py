@@ -107,7 +107,7 @@ def main():
     test_accuracy = int(model.score(X_train, y_train) * 100)
     
     # Display the accuracy
-    st.write(f"Train accuracy: {test_accuracy}%")
+    st.write(f"Train accuracy: {train_accuracy}%")
     st.write(f"Test accuracy: {test_accuracy}%")
 
     match subject:

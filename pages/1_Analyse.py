@@ -54,7 +54,7 @@ def main():
             if ss == 0:
                 #This would empty everything inside the container
                 placeholder.empty()
-                st.balloons()
+               # st.balloons()
       
             
     # Check if file was uploaded

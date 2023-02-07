@@ -104,7 +104,7 @@ def main():
     # Evaluate the model
     st.subheader("Accuracy of the model:")
     train_accuracy = int(model.score(X_train, y_train) * 100)
-    test_accuracy = int(model.score(X_train, y_train) * 100)
+    test_accuracy = int(model.score(X_test, y_test) * 100)
     
     # Display the accuracy
     st.write(f"Train accuracy: {train_accuracy}%")

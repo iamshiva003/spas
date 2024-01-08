@@ -47,7 +47,7 @@ def main():
     st.title("Student Grade Prediction")
 
     # Load the data into a Pandas dataframe
-    training_data = pd.read_csv("datasets/csv/training_data.csv", ';')
+    training_data = pd.read_csv("datasets/csv/training_data.csv", sep=';')
     
     # Training the Machine learning model
     training_data = training_data[['G1', 'G2', 'G3', 'absences', 'failures', 'studytime']]
